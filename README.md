@@ -1,12 +1,27 @@
-# React + Vite
+# 🔎 SearchPro – Autofill Input Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, high-performance React application built with Vite that demonstrates an autofill input component using real-time filtering, debouncing, and LRU caching.
 
-Currently, two official plugins are available:
+### 🚀 [Live Demo](https://search-pro-frontend.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Assignment Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is part of a **Frontend Developer Assignment** and implements the following features:
+
+1. **React + Vite Project**  
+   Built using JavaScript and Vite for blazing-fast performance and modern development experience.
+
+2. **Autofill Input Component**  
+   Implements a dynamic autofill input using the provided dummy JSON data.
+
+---
+
+## ✅ Features Implemented
+
+- 🔍 **Filter data based on user input**
+- ⏱️ **Debounced input (300ms)** for optimized filtering
+- 🧠 **LRU Cache (Least Recently Used)** to store recent search results (max 10 entries)
+- 💡 **Matched substring highlighting** (bold), while keeping remaining text in normal font
+- 🌑 **Modern UI** with dark theme and responsive layout
